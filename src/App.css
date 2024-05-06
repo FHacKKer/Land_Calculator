@@ -1,0 +1,91 @@
+.calculator-container {
+    padding: 20px;
+    background: #f2f2f2;
+    border-radius: 10px;
+    max-width: 600px;
+    min-height: 100svh;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.calculator-container h2 {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+}
+
+.input-container {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input-container label {
+    font-weight: bold;
+    margin-right: 10px;
+    text-align: left;
+}
+
+.input-container input,
+.input-container select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 150px;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button-container button {
+    padding: 10px 20px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.button-container button:hover {
+    background: #45a049;
+}
+
+.result-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+.result-container .result-input{
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 5px 20px;
+    margin: 10px 0;
+    /*background: rgba(189,61,120,0.89);*/
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+.result-container label{
+    width: 100%;
+    text-align: right;
+}
+.result-container input {
+    margin-top: 5px;
+    border: none;
+    background: #f2f2f2;
+    padding: 10px;
+    color: #333;
+    width: 200px;
+    text-align: left;
+}
+
+.result-container input:focus {
+    outline: none;
+}

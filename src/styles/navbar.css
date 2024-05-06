@@ -1,0 +1,26 @@
+.navbar{
+    padding: 10px 20px;
+    display: flex;
+    background: cornflowerblue;
+    align-items: center;
+    /*background: #000;*/
+    justify-content: space-between;
+    font-size: 1.6rem;
+}
+.navbar h1{
+    color: whitesmoke;
+}
+.navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar ul li{
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+.navbar ul li img{
+    cursor: pointer;
+
+}
